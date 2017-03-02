@@ -1,0 +1,39 @@
+/* ----------------------------------------------------------------
+
+	content.scss
+
+-----------------------------------------------------------------*/
+
+
+/* ----------------------------------------------------------------
+	Content
+-----------------------------------------------------------------*/
+
+#content {
+    position: relative;
+    overflow: hidden;
+    background-color: #FFF;
+    p {
+        line-height: $line-height-content;
+    }
+    .content-wrap {
+        position: relative;
+        padding: 80px 0;
+    }
+    .container {
+        position: relative;
+    }
+    .block-light {
+        background-color: $light-white!important;
+        color: $dark-grey!important;
+    }
+}
+
+.grid-container {
+    position: relative;
+    overflow: hidden;
+}
+
+body:not(.device-touch) .grid-container {
+    @include transition(height .4s linear);
+}
