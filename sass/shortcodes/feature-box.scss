@@ -36,18 +36,18 @@
         img {
             @include border-radius(50%);
             background-color: $theme-color;
-            &.red-t {
-                background-color: $main-color;
-            }
-            &.blue-t {
-                background-color: $second-color;
-            }
         }
         i {
             font-style: normal;
             font-size: 28px;
             text-align: center;
             line-height: 64px;
+            &.red-team {
+                background-color: $main-color;
+            }
+            &.blue-team {
+                background-color: $second-color;
+            }
         }
     }
     h3 {
@@ -97,6 +97,21 @@
             padding: 3px;
             i {
                 line-height: 56px;
+            }
+            &.red-team {
+                border: 1px solid $main-color;
+                i {
+                    background-color: $main-color;
+                }
+            }
+            &.blue-team {
+                border: 1px solid $second-color;
+                i {
+                    background-color: $second-color;
+                }
+            }
+            &:hover {
+                border: 1px solid #494949;
             }
         }
     }

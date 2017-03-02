@@ -6693,17 +6693,15 @@ body:not(.device-touch) .button.button-full strong {
     .feature-box .fbox-icon img {
       border-radius: 50%;
       background-color: #990000; }
-      .feature-box .fbox-icon i.red-t,
-      .feature-box .fbox-icon img.red-t {
-        background-color: #990000; }
-      .feature-box .fbox-icon i.blue-t,
-      .feature-box .fbox-icon img.blue-t {
-        background-color: #000099; }
     .feature-box .fbox-icon i {
       font-style: normal;
       font-size: 28px;
       text-align: center;
       line-height: 64px; }
+      .feature-box .fbox-icon i.red-team {
+        background-color: #990000; }
+      .feature-box .fbox-icon i.blue-team {
+        background-color: #000099; }
   .feature-box h3 {
     font-size: 16px;
     font-weight: 700;
@@ -6736,6 +6734,16 @@ body:not(.device-touch) .button.button-full strong {
   padding: 3px; }
   .feature-box.fbox-outline .fbox-icon i {
     line-height: 56px; }
+  .feature-box.fbox-outline .fbox-icon.red-team {
+    border: 1px solid #990000; }
+    .feature-box.fbox-outline .fbox-icon.red-team i {
+      background-color: #990000; }
+  .feature-box.fbox-outline .fbox-icon.blue-team {
+    border: 1px solid #000099; }
+    .feature-box.fbox-outline .fbox-icon.blue-team i {
+      background-color: #000099; }
+  .feature-box.fbox-outline .fbox-icon:hover {
+    border: 1px solid #494949; }
 
 /* Feature Box - Icon Outline Large
 -----------------------------------------------------------------*/
