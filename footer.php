@@ -77,6 +77,8 @@
 	============================================= -->
 	<script type="text/javascript" src="js/jquery.js"></script>
 	<script type="text/javascript" src="js/plugins.js"></script>
+	<script type="text/javascript" src="https://maps.google.com/maps/api/js?key=AIzaSyCRQuq2UpiEufiUKaP_yMrKteN9MmCHHGU"></script>
+	<script type="text/javascript" src="js/jquery.gmap.js"></script>
 
 	<!-- Footer Scripts
 	============================================= -->
